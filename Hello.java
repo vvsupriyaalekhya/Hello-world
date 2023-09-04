@@ -1,6 +1,6 @@
 class Hello
 {
-    public static void mian(String a[])
+    public static void main(String a[])
     {
         System.out.println("Hello World");
     }
