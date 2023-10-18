@@ -1,7 +1,7 @@
 
 Body {  
   font-family: Calibri, Helvetica, sans-serif;  
-  background-color: pink;  
+  background-color: #DFC5FE;  
 }  
 button {   
        background-color: #4CAF50;   
@@ -35,6 +35,6 @@ button {
      
  .container {   
         padding: 25px;   
-        background-color: lightblue;  
+        background-color: rgb(208, 206, 212);  
     }   
   
