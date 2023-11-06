@@ -1,40 +1,56 @@
+body{
+  margin-top:60px;
+  text-align:center;
+}
 
-Body {  
-  font-family: Calibri, Helvetica, sans-serif;  
-  background-color: #DFC5FE;  
-}  
-button {   
-       background-color: #4CAF50;   
-       width: 100%;  
-        color: orange;   
-        padding: 15px;   
-        margin: 10px 0px;   
-        border: none;   
-        cursor: pointer;   
-         }   
- form {   
-        border: 3px solid #f1f1f1;   
-    }   
- input[type=text], input[type=password] {   
-        width: 100%;   
-        margin: 8px 0;  
-        padding: 12px 20px;   
-        display: inline-block;   
-        border: 2px solid green;   
-        box-sizing: border-box;   
-    }  
- button:hover {   
-        opacity: 0.7;   
-    }   
-  .cancelbtn {   
-        width: auto;   
-        padding: 10px 18px;  
-        margin: 10px 5px;  
-    }   
-        
-     
- .container {   
-        padding: 25px;   
-        background-color: rgb(208, 206, 212);  
-    }   
-  
+h1 {
+  padding-bottom: 0.5rem;
+}
+
+input[type=number] {
+  cursor: pointer;
+}
+
+#input-celsius{
+  background-color: #FF69B4;
+  font-size: 2.5rem;
+}
+
+#input-fahrenheit{
+  background-color: #16BAC5;
+  font-size: 2.5rem;
+}
+
+#input-kelvin{
+  background-color: #228B22;
+  font-size: 2.5rem;
+}
+
+.form-padding {
+  padding: 2rem 1rem;
+}
+
+::-webkit-input-placeholder {
+  color: #FFFFFF !important;
+}
+::-moz-placeholder {
+  color: #FFFFFF !important;
+}
+:-ms-input-placeholder {
+  color: #FFFFFF !important;
+}
+:-moz-placeholder {
+  color: #FFFFFF !important;
+}
+
+footer{
+  padding-top: 1.5rem;
+  font-size: 0.7rem;
+  line-height: 0.2rem;
+  text-align:center;
+}
+
+.icons{
+  max-width: 25px;
+  height: auto;
+}
